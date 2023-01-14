@@ -1,0 +1,226 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Permanent+Marker&family=Poppins:wght@500&family=Rubik+Glitch&family=Work+Sans&display=swap');
+
+/* Common style */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header section */
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 1222px;
+}
+/* Nav section styles */
+.navs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px 0 100px;
+}
+.nav-tittle{
+    font-size: 34px;
+}
+.nav-item a{
+    color: #424242;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Banner section styles */
+
+.banner-item{
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0 0 240px;
+}
+.banner-tittle{
+    color: #131313;
+    font-weight: 900;
+    font-size: 64px;
+}
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.primary-btn{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    background-color: #287094;
+    width: 180px;
+    height: 64px;
+    border-radius: 10px;
+}
+.banner img{
+    position: relative;
+    left: 140px;
+    width: 80%;
+    padding-top: 200px;
+}
+
+/* Quick list section styles */
+
+.teams{
+    display: flex;
+    padding: 70px 200px 0 200px;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.team-img img{
+    width: 100%;
+}
+.team-item{
+    margin-left: 70px;
+}
+.first{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+.second{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.third{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+.team-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Futures section styles */
+
+.futures{
+    display: flex;
+    padding: 150px 100px 0 100px;
+    align-items: center;
+    gap: 20px;
+}
+.future-tittle{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.future-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.future-item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.27);
+    border-radius: 8px;
+}
+.tittle{
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/* Achievement section style */
+
+.achievement{
+    padding-top: 100px;
+}
+.achievement-tittle{
+    color: #131313;
+    font-weight: 900;
+    font-size: 45px;
+    padding-left: 100px;
+}
+.achievement-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px; 
+    padding-left: 100px;
+    padding-right: 700px;
+}
+.achievements{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+.achievement-item{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 150px;
+    padding: 35px 35px 0px 25px;
+}
+
+.point{
+    color: #424242;
+    font-weight: 600;
+    font-size: 35px;
+}
+.sub{
+    color: #727272;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Sponsors section styles */
+
+.sponsors{
+    padding-top: 100px;
+}
+.sponsor-item{
+    text-align: center;
+}
+.sponsor-tittle{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsor-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sponsor-logos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 940px;
+    height: 100px;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+.footer-text{
+    padding: 45px 200px;
+    color: #424242;
+    font-weight: 400;
+    font-size: 16px;
+}
