@@ -144,7 +144,17 @@ header{
     padding-left: 20px;
     padding-bottom: 30px;
 }
-
+.futures .primary-btn{
+    position: relative;
+    height: 120px;
+    width: 200px;
+    left: 430px;
+    top: -120px;
+}
+.ten-year{
+    font-weight: 700;
+    font-size: 35px;
+}
 /* Achievement section style */
 
 .achievement{
@@ -164,8 +174,9 @@ header{
     padding-right: 700px;
 }
 .achievements{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     padding-left: 80px;
     padding-top: 100px;
 }
@@ -173,7 +184,8 @@ header{
     border: 1px solid #FF900E;
     border-radius: 8px;
     width: 150px;
-    padding: 35px 35px 0px 25px;
+    margin-left: 70px;
+    padding: 35px 35px 0px 25px; 
 }
 
 .point{
@@ -223,4 +235,88 @@ header{
     color: #424242;
     font-weight: 400;
     font-size: 16px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 667px){
+
+    /* Banner section  */
+    header{
+        height: 980px;
+    }
+    .navs{
+        flex-direction: column;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner-item{
+        padding-left: 0 ;
+        padding-right: 0;
+        width: 100%;
+    }
+    .banner img{
+        left: 35px;
+        margin-top: 120px;
+    }
+
+    /* Quick list section */
+    .teams{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .team-img{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin-top: 20px;
+    }
+    .team-item{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    /* Futures section  */
+    .futures{
+        flex-direction: column;
+    }
+    .future-tittle {
+        text-align: center;
+        
+    }
+    .futures img{
+        top: 100px;
+        width: 340px;
+    }
+    .futures .primary-btn{
+        left: 2px;
+        margin-top: 150px;
+    }
+
+    /* achievement section */
+    .achievements{
+        flex-direction: column;
+        padding: 0;
+    }
+    .achievement-description{
+        text-align: center;
+        padding: 0;
+    }
+
+     /* sponsors section */
+    .sponsor-logos{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    
+    .footer{
+        width: 100%;
+        margin: 0;
+    }
+    .footer-text{
+        padding: 15px 20px;
+    }
+   
+
 }
