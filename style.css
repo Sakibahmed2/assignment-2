@@ -10,7 +10,7 @@ body{
 /* Header section */
 
 header{
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color:  rgb(251, 231, 205);
     height: 1222px;
 }
 /* Nav section styles */
@@ -157,6 +157,14 @@ header{
 }
 /* Achievement section style */
 
+.achievement-hover{
+    transition: 1s ease;
+    position: relative;
+}
+.achievement-hover:hover{
+    background-color: #b3dff5;
+    top: -20px;
+}
 .achievement{
     padding-top: 100px;
 }
@@ -224,7 +232,7 @@ header{
     padding-top: 50px;
 }
 .footer{
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: rgb(251, 231, 205);
     width: 940px;
     height: 100px;
     margin-left: 160px;
@@ -237,7 +245,60 @@ header{
     font-size: 16px;
 }
 
+/* Contact section styles */
+.contact-us{
+    display: flex;
+    margin-top: 100px;
+    padding: 50px 0 50px 50px;
+    background-color: rgb(251, 231, 205);
+}
+.contact-text{
+    width: 800px;
+}
+.contact-tittle{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.contact-description{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 16px;
+}
+.email{
+    color:  #4a4a4a;
+    font-weight: 400;
+    font-size: 16px;
+}
+.phone{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 16px;
+}
 
+.massage{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+input{
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+textarea{
+    border: none;
+    padding-left: 10px;
+}
+.contact-us .primary-btn{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 40px;
+    right: 250px;
+    margin-top: 10px;
+}
 /* Responsive */
 
 @media only screen and (max-width: 667px){
@@ -295,6 +356,7 @@ header{
     }
 
     /* achievement section */
+   
     .achievements{
         flex-direction: column;
         padding: 0;
@@ -316,6 +378,23 @@ header{
     }
     .footer-text{
         padding: 15px 20px;
+    }
+
+    /* Contact section  */
+    .contact-us{
+        flex-direction: column;
+        padding: 0;
+    }
+    .contact-text{
+        text-align: center;
+        width: 100%;
+    }
+    .form{
+        padding-left: 20px;
+    }
+    .contact-us .primary-btn{
+        top: 0;
+        right: 0;
     }
    
 
